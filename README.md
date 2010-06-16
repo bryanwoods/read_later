@@ -1,4 +1,5 @@
-*Here is an example Sinatra application to get you going:*
+Here is an example Sinatra application to get you going:
+--------------------------------------------------------
 
     require 'rubygems'
     require 'sinatra'
