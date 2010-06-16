@@ -6,15 +6,15 @@ get '/' do
   read_later = ReadLater.new
 
   # Application variables
-  # Example URL:
+  # URL (Required):
   # h post_path(@post)
   url = "http://writing.bryanwoods4e.com/1-poor-poor-child"
 
-  # Example title:
+  # Title (Optional, but preferred):
   # h @post.title
   title = "Poor, poor child. You have no idea."
 
-  # Can customize the following iframe parameters:
+  # Can customize the following optional iframe parameters:
   # Border, scrolling, width, height, transparency,
   # And frameborder. For example:
   read_later.height = 100
@@ -28,4 +28,3 @@ get '/' do
   # <%= @instapaper_button %>
   @instapaper_button
 end
-
