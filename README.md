@@ -1,3 +1,7 @@
+Installation:
+=============
+    gem install read_later
+
 Here is an example Sinatra application to get you going:
 --------------------------------------------------------
 
